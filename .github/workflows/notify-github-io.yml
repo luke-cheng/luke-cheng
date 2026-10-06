@@ -1,0 +1,25 @@
+name: Notify luke-cheng.github.io
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - LukeCheng.md
+      - blogs/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub Pages build
+        env:
+          GH_TOKEN: ${{ secrets.PAGES_REPOSITORY_DISPATCH_TOKEN }}
+        run: |
+          gh api --method POST \
+            repos/luke-cheng/luke-cheng.github.io/dispatches \
+            -f event_type=content-updated \
+            -f "client_payload[sha]=$GITHUB_SHA"
