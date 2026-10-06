@@ -2,7 +2,7 @@ name: Notify luke-cheng.github.io
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - LukeCheng.md
       - blogs/**
