@@ -18,8 +18,11 @@ jobs:
       - name: Trigger GitHub Pages build
         env:
           GH_TOKEN: ${{ secrets.PAGES_REPOSITORY_DISPATCH_TOKEN }}
-        run: |
+        run:
+          | # https://docs.github.com/en/rest/actions/workflows?apiVersion=2026-03-10#create-a-workflow-dispatch-event
           gh api --method POST \
-            repos/luke-cheng/luke-cheng.github.io/dispatches \
-            -f event_type=content-updated \
-            -f "client_payload[sha]=$GITHUB_SHA"
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            /repos/luke-cheng/luke-cheng.github.io/actions/workflows/deploy.yml/dispatches \
+            -f ref=main \
+            -f inputs[content_sha]="$GITHUB_SHA"
