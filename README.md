@@ -8,7 +8,7 @@ Now here I am, pushing code on GitHub.
 
 I’m always up for a good chat. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/luke-cheng/).
 
-## 🌐 Website [Link](https://luke-cheng.vercel.app)
+## 🌐 Website [Link](https://luke-cheng.github.io)
 
 I built a personal website with a custom-trained AI chatbot to keep things fun and interactive. I spent way too much time fine-tuning it, so go ahead and give it a spin--it should know me pretty well.
 
