@@ -1,6 +1,6 @@
 ---
 title: Maybe there is an anti-hype AI startup
-date: 2026-07-27
+date: 2026-09-20
 description: we can make a prevalence vs programmatic matrix
 ---
 
