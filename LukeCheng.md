@@ -2,58 +2,58 @@
 
 [LinkedIn](https://www.linkedin.com/in/luke-cheng/) | [GitHub](https://github.com/Luke-Cheng)
 
-## Experience
+## EXPERIENCE
 
-### Software Engineer | JPMorgan Chase, New York, NY
+### **JPMorgan Chase & Co.**, New York, NY
 
-> Dec 2025 – Present
+**Software Engineer** | _Dec 2025 - Present_
 
-- Contributed to the query side of a CQRS-style centralized customer data platform, building the Customer Summary Utility to consolidate customer information from multiple internal systems and serve 10M+ daily requests (~10K TPS) with p99 latency below 200 ms using Spring Boot, Kafka, Cassandra, and CockroachDB.
-- Implemented a Change Data Capture design pattern to propagate database changes through lightweight Kafka events rather than transmitting full customer payloads, reducing messaging overhead and enabling lower-latency updates to the customer-read model.
-- Implemented reactive Kafka consumers with batch processing to asynchronously process customer-data changes at high throughput, keeping the query-side data model synchronized while reducing coupling between upstream systems and the customer-facing API.
-- Supported the platform's transition to Kubernetes-based infrastructure as traffic increased, improving horizontal scalability, deployment consistency, and operational reliability for high-throughput services.
-- Expanded automated testing across diverse customer datasets—including addresses, phone numbers, account-to-customer relationships, account identifiers, and card data—using JUnit and Cucumber, providing regression coverage for data-processing paths that could not be reliably exercised through UAT alone.
-- Extended the API and underlying data model to support multiple physical and virtual card numbers associated with a single account, enabling customer-data services to accommodate mobile-wallet and virtual-card use cases without relying on one-to-one account-to-card mappings.
-- Standardized deployment configuration across environments to improve consistency between test and production, reducing environment-specific configuration issues and increasing confidence in production releases.
-- Implemented Dynatrace SaaS observability to provide application and service-level visibility across the distributed platform, enabling developers to identify performance and health issues before diving into detailed Splunk logs.
-- Improved release safety through Helm-based Canary deployment and rollback strategies within Jenkins CI/CD pipelines, enabling controlled production releases and faster recovery from deployment issues.
-- Helped maintain operational continuity during a team transition by troubleshooting Kubernetes deployments, CI/CD workflows, configuration issues, and legacy service behavior while documenting system knowledge for continued development and support.
+- ### **JPMorgan Chase & Co.**, New York, NY
+  **Software Engineer** | _Dec 2025 – Present_
 
-### Co-Founder | MOYU LLC, Pittsburgh, PA
+* **Forward-Deployed AI Engineering:** Forward-deployed as part of a specialized AI engineering unit embedding directly into high-throughput enterprise groups to accelerate generative AI adoption, developer productivity, and system modernization.
+* **Customer-Data Utility Platform:** Embedded within the Customer-Data Utility Platforms Group—supporting the inquiry side of a high-throughput CQRS-style architecture operating at **5K+ average to 11K peak TPS** using **Java (Spring Boot), Apache Kafka, Cassandra, and CockroachDB**.
+* **AI-Powered Dead Letter Queue (DLQ):** Engineered an intelligent Dead Letter Queue pipeline for high-throughput Kafka streams, integrating an automated AI diagnostic harness that analyzes payload schema violations and malformed messages to instantly pinpoint upstream data producer root causes.
+* **Upstream vs. Downstream Comparison Chatbot:** Built a production support AI chatbot that executes automated cross-system diffs between downstream utility data and upstream producer payloads, validating synchronization status and automatically routing incident tickets to upstream teams when downstream data is in sync.
+* **Enterprise AI Platforms:** Co-engineered **LLM Suite**, the firm’s global generative AI platform, delivering secure, modular agentic workflow orchestration and reusable prompt templates supporting over 230,000 employees globally.
+* **RAG & Knowledge Retrieval:** Developed **GTAssist**, a RAG-powered engineering assistant integrating semantic search, vector indexing, and the **Model Context Protocol (MCP)** to retrieve architectural knowledge from Confluence and internal documentation.
+* **AI Coding-Agent Harnesses:** Built custom coding-agent harnesses providing GitHub Copilot with deep context on JPMC CCB’s proprietary **Photon Boot** and **Manhattan Design System (MDS)**, improving AI-generated code relevance and enterprise standards alignment.
+* **Infrastructure & Automated Quality Guardrails:** Deployed services to Kubernetes (EKS) with Helm-based canary releases; established TDD/BDD automated testing guardrails (JUnit, Cucumber) within Jenkins CI/CD pipelines to validate AI-generated pull requests at scale.
+* **Observability & Log Intelligence:** Enhanced distributed service diagnostics by configuring Fluent Bit pipelines, Splunk dashboards, and Dynatrace SaaS monitoring to support AI-assisted log summarization and incident root-cause analysis.
 
-> Feb 2023–Jan 2024
+### **MOYU LLC**, Pittsburgh, PA
 
-- Founded an early-stage startup exploring semantic version control for CAD/BIM assets, addressing workflow limitations for complex engineering design files.
-- Developed cross-platform visualization and revision-diff tooling using Next.js, Electron, and Three.js for large-scale 2D and 3D architectural models.
-- Researched multi-module computer vision and geometric reasoning techniques for engineering design understanding to inform product strategy.
+**Co-Founder** | _Nov 2024 – Nov 2025_
 
-### Graduate Software Developer | University of Pittsburgh Medical Center, Pittsburgh, PA
+- **B2B Venture Co-Foundation:** Co-founded an early-stage B2B software venture focused on version-control and collaboration workflows for architectural and AEC teams, translating complex domain-specific collaboration challenges into scalable product capabilities.
+- **Interactive 3D Visualization & Diff Features:** Developed interactive 3D rendering and visual diff features with Next.js and Three.js, enabling architecture teams to seamlessly inspect changes across complex 3D design assets and understand revisions.
+- **Cross-Platform Desktop Migration:** Spearheaded the migration of the core product from a standard web application to a high-performance, cross-platform Electron desktop application, significantly improving local file-system integration and user experience for design-centric workflows.
 
-> Feb 2023–Jan 2024
+### **University of Pittsburgh Medical Center (UPMC)**, Pittsburgh, PA
 
-- Built a HIPAA-compliant clinical analytics platform by translating requirements from 50+ clinicians into scalable healthcare software using Java, Spring Boot, MySQL, FHIR APIs, and AWS.
-- Developed Python NLP pipelines using spaCy, NLTK, and custom information extraction techniques to convert unstructured clinical notes into structured medical knowledge.
-- Designed semantic indexing and intelligent clinical search workflows to improve retrieval of medical information.
-- Deployed secure cloud infrastructure supporting high availability, regulatory compliance, and scalable healthcare data processing.
+**Graduate Software Developer** | _Feb 2023 – Jan 2024_
 
-### Research Scientist | ChemPacific Corp, Baltimore, MD
+- **HIPAA-Compliant Clinical Platform:** Collaborated with 50+ clinicians to translate clinical workflow and analytics requirements into a secure, HIPAA-compliant platform using Spring Boot, Django, MySQL, and FHIR APIs.
+- **Python NLP Microservice:** Developed a custom Python natural language processing (NLP) microservice that automatically extracted structured clinical insights, reducing clinical case retrieval times from hours to minutes.
+- **Secure AWS Cloud Infrastructure:** Provisioned and deployed secure AWS infrastructure for heavy clinical analytics workloads, balancing high system availability and scalability with strict healthcare privacy mandates.
 
-> May 2021–May 2022
+### **ChemPacific Corp.**, Baltimore, MD
 
-- Applied data science techniques to laboratory manufacturing datasets, building Python workflows that improved process visibility and operational decision-making.
-- Designed automated laboratory data pipelines integrating Agilent analytical instrumentation with enterprise systems, improving traceability and reducing manual processing.
-- Performed statistical analysis, data validation, and process optimization across large experimental datasets supporting manufacturing quality and scientific research.
-- Automated laboratory workflows using Python and PowerShell, eliminating repetitive manual tasks and saving 150+ hours annually while maintaining GMP and NMPA compliance.
+**Research Scientist** | _May 2021 – May 2022_
 
-## Education
+- **Laboratory Data Pipeline Automation:** Automated complex laboratory data pipelines using Python and PowerShell scripting, significantly improving data accuracy, repeatability, and end-to-end traceability.
+- **Analytical Instrumentation Integration:** Integrated Agilent laboratory instrumentation directly with internal data systems, streamlining data flows and saving 5+ hours of manual effort weekly.
+- **Regulatory Compliance & Automation:** Supported critical laboratory automation initiatives in strict alignment with Good Manufacturing Practice (GMP) and National Medical Products Administration (NMPA) regulatory standards.
 
-### Master of Science in Computer & Information Science | University of Pittsburgh
+## EDUCATION
 
-> Aug 2022–May 2024
+### **University of Pittsburgh**, Pittsburgh, PA
 
-### Bachelor of Science in Chemistry and Philosophy | Virginia Tech
+**Master of Science, Computer & Information Science** | _Aug 2022 - May 2024_
 
-> Aug 2016–Dec 2020
+### **Virginia Tech** (Virginia Polytechnic Institute and State University), Blacksburg, VA
+
+**Bachelor of Science, Chemistry and Philosophy** | _Aug 2016 - Dec 2020_
 
 ## Personal Projects
 
@@ -89,7 +89,7 @@
 - **Skiing**: Active meditation and outdoor focus.
 - **Philosophy**: Critical thinking, ethics, and epistemology.
 - **Gaming & Simulation**:
-    - Automation & Systems: Screeps, Factorio (modular design, programmatic problem-solving).
-    - Resource Management: Oxygen Not Included (prioritization and system balance under constraints).
-    - Narrative & Ethics: This War of Mine, Papers, Please (high-stakes decision-making and ethical dilemmas).
-    - Visual & Interactive Design: Return of the Obra Dinn, What Remains of Edith Finch (deduction, atmosphere, and visual storytelling).
+  - Automation & Systems: Screeps, Factorio (modular design, programmatic problem-solving).
+  - Resource Management: Oxygen Not Included (prioritization and system balance under constraints).
+  - Narrative & Ethics: This War of Mine, Papers, Please (high-stakes decision-making and ethical dilemmas).
+  - Visual & Interactive Design: Return of the Obra Dinn, What Remains of Edith Finch (deduction, atmosphere, and visual storytelling).
