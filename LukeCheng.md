@@ -4,42 +4,39 @@
 
 ## EXPERIENCE
 
-### **JPMorgan Chase & Co.**, New York, NY
+### JPMorgan Chase, New York, NY
 
-**Software Engineer** | _Dec 2025 - Present_
+**Software Engineer** | Dec 2025 - Present
 
-- ### **JPMorgan Chase & Co.**, New York, NY
-  **Software Engineer** | _Dec 2025 – Present_
+- **Forward-Deployed FDE Foundation:** Joined a specialized, pivoting **Forward-Deployed Engineering (FDE) Unit**, embedding with legacy and high-impact business groups to build core AI tooling, accelerate developer productivity, and de-risk migration bottlenecks.
+- **HITL Legacy Modernization:** Engineered a Human-in-the-Loop (HITL) AI code analysis tool that parsed complex, monolithic COBOL codebases to decouple tightly bound business logic and legacy database statements embedded within the same files; accelerated automated translation and structural refactoring into cloud-native Java microservices while preserving absolute human auditing guardrails.
+- **Enterprise AI Scaling (LLM Suite):** Co-engineered **LLM Suite**, the firm's global generative AI platform scaled to augment **230,000+ employees**. Designed and implemented a customizable system-prompt architecture that enabled non-technical product managers and cross-functional engineers to configure, safe-guard, and deploy domain-specific AI workflows.
+- **Context-Insulated RAG & Developer Tooling:** Built **GTAssist** and **GTAssist MCP** (Model Context Protocol), a specialized developer assistant integrating internal engineering blogs and Confluence knowledge bases. Embedded deep architectural context for JPMC's proprietary frameworks (**Photon Boot** enterprise Spring Boot extensions, **Octagon/Manhattan Design System** React-based frontend framework, **Jules** Jenkins configs, and on-premises Gaia Kubernetes Platform) into coding-agent harnesses to drastically increase generated code accuracy.
+- **High-Throughput Core Platform Integration:** Forward-deployed to the Customer Summary Utility teams (a 23-engineer squad managing 8 mission-critical microservices) to assist in AI-empowered consolidation of fragmented core services into a uniform data utility, eliminating the need for internal firm teams to retrieve data across disparate groups and perform manual joins; architected high-throughput CQRS inquiry path features operating at **5K average to 11K peak TPS** using **Java (Spring Boot), Python (FastAPI), Apache Kafka, Cassandra, and CockroachDB**.
+- **Data Pipeline Optimization:** Evaluated high-throughput data-delivery patterns and implemented CockroachDB's native **Change Data Capture (CDC) events**, significantly reducing downstream messaging overhead while optimizing real-time customer-data freshness.
+- **AI Diagnostics & Automated Support:** Built a database- and codebase-aware AI diagnostic chatbot for internal UAT and production support; executed automated cross-system diffs between upstream payloads and Kafka Dead Letter Queues (DLQ) to instantly pinpoint schema violations, reducing team support response times from days to hours.
+- **Secure Financial Product Features:** Implemented secure card tokenization and Virtual Card Number (VCN) workflows for Apple Wallet and digital wallets within a v3 API, enabling complex one-to-many account-to-card entity mappings under strict PCI-compliance parameters.
+- **CI/CD Quality Guardrails:** Established TDD/BDD quality gates (JUnit, Cucumber) within Jenkins pipelines to validate AI-generated pull requests at scale, ensuring automated compliance verification and reducing reliance on manual reviews.
 
-* **Forward-Deployed AI Engineering:** Forward-deployed as part of a specialized AI engineering unit embedding directly into high-throughput enterprise groups to accelerate generative AI adoption, developer productivity, and system modernization.
-* **Customer-Data Utility Platform:** Embedded within the Customer-Data Utility Platforms Group—supporting the inquiry side of a high-throughput CQRS-style architecture operating at **5K+ average to 11K peak TPS** using **Java (Spring Boot), Apache Kafka, Cassandra, and CockroachDB**.
-* **AI-Powered Dead Letter Queue (DLQ):** Engineered an intelligent Dead Letter Queue pipeline for high-throughput Kafka streams, integrating an automated AI diagnostic harness that analyzes payload schema violations and malformed messages to instantly pinpoint upstream data producer root causes.
-* **Upstream vs. Downstream Comparison Chatbot:** Built a production support AI chatbot that executes automated cross-system diffs between downstream utility data and upstream producer payloads, validating synchronization status and automatically routing incident tickets to upstream teams when downstream data is in sync.
-* **Enterprise AI Platforms:** Co-engineered **LLM Suite**, the firm’s global generative AI platform, delivering secure, modular agentic workflow orchestration and reusable prompt templates supporting over 230,000 employees globally.
-* **RAG & Knowledge Retrieval:** Developed **GTAssist**, a RAG-powered engineering assistant integrating semantic search, vector indexing, and the **Model Context Protocol (MCP)** to retrieve architectural knowledge from Confluence and internal documentation.
-* **AI Coding-Agent Harnesses:** Built custom coding-agent harnesses providing GitHub Copilot with deep context on JPMC CCB’s proprietary **Photon Boot** and **Manhattan Design System (MDS)**, improving AI-generated code relevance and enterprise standards alignment.
-* **Infrastructure & Automated Quality Guardrails:** Deployed services to Kubernetes (EKS) with Helm-based canary releases; established TDD/BDD automated testing guardrails (JUnit, Cucumber) within Jenkins CI/CD pipelines to validate AI-generated pull requests at scale.
-* **Observability & Log Intelligence:** Enhanced distributed service diagnostics by configuring Fluent Bit pipelines, Splunk dashboards, and Dynatrace SaaS monitoring to support AI-assisted log summarization and incident root-cause analysis.
+### MOYU LLC, Pittsburgh, PA
 
-### **MOYU LLC**, Pittsburgh, PA
-
-**Co-Founder** | _Nov 2024 – Nov 2025_
+**Co-Founder** | Nov 2024 – Nov 2025
 
 - **B2B Venture Co-Foundation:** Co-founded an early-stage B2B software venture focused on version-control and collaboration workflows for architectural and AEC teams, translating complex domain-specific collaboration challenges into scalable product capabilities.
 - **Interactive 3D Visualization & Diff Features:** Developed interactive 3D rendering and visual diff features with Next.js and Three.js, enabling architecture teams to seamlessly inspect changes across complex 3D design assets and understand revisions.
 - **Cross-Platform Desktop Migration:** Spearheaded the migration of the core product from a standard web application to a high-performance, cross-platform Electron desktop application, significantly improving local file-system integration and user experience for design-centric workflows.
 
-### **University of Pittsburgh Medical Center (UPMC)**, Pittsburgh, PA
+### University of Pittsburgh Medical Center (UPMC), Pittsburgh, PA
 
-**Graduate Software Developer** | _Feb 2023 – Jan 2024_
+**Graduate Software Developer** | Feb 2023 – Jan 2024
 
 - **HIPAA-Compliant Clinical Platform:** Collaborated with 50+ clinicians to translate clinical workflow and analytics requirements into a secure, HIPAA-compliant platform using Spring Boot, Django, MySQL, and FHIR APIs.
 - **Python NLP Microservice:** Developed a custom Python natural language processing (NLP) microservice that automatically extracted structured clinical insights, reducing clinical case retrieval times from hours to minutes.
 - **Secure AWS Cloud Infrastructure:** Provisioned and deployed secure AWS infrastructure for heavy clinical analytics workloads, balancing high system availability and scalability with strict healthcare privacy mandates.
 
-### **ChemPacific Corp.**, Baltimore, MD
+### ChemPacific Corp, Baltimore, MD
 
-**Research Scientist** | _May 2021 – May 2022_
+**Research Scientist** | May 2021 – May 2022
 
 - **Laboratory Data Pipeline Automation:** Automated complex laboratory data pipelines using Python and PowerShell scripting, significantly improving data accuracy, repeatability, and end-to-end traceability.
 - **Analytical Instrumentation Integration:** Integrated Agilent laboratory instrumentation directly with internal data systems, streamlining data flows and saving 5+ hours of manual effort weekly.
@@ -47,13 +44,13 @@
 
 ## EDUCATION
 
-### **University of Pittsburgh**, Pittsburgh, PA
+### University of Pittsburgh, Pittsburgh, PA
 
-**Master of Science, Computer & Information Science** | _Aug 2022 - May 2024_
+**Master of Science, Computer & Information Science** | Aug 2022 - May 2024
 
-### **Virginia Tech** (Virginia Polytechnic Institute and State University), Blacksburg, VA
+### Virginia Tech (Virginia Polytechnic Institute and State University), Blacksburg, VA
 
-**Bachelor of Science, Chemistry and Philosophy** | _Aug 2016 - Dec 2020_
+**Bachelor of Science, Chemistry and Philosophy** | Aug 2016 - Dec 2020
 
 ## Personal Projects
 
