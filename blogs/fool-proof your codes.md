@@ -1,6 +1,5 @@
 ---
-title: Make your code fool-proof, not efficient
-date: 2026-09-20
+name: Make your code fool-proof, not efficient
 description: about the small engineering decisions that keep systems understandable as they grow.
 ---
 

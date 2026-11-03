@@ -1,6 +1,5 @@
 ---
-title: Maybe we are all gen ai
-date: 2026-10-07
+name: Maybe we are all gen ai
 description: I might be a model with small context windows but make it work by heavy indexing.
 ---
 
