@@ -14,12 +14,24 @@ permissions:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
     steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ vars.PAGES_APP_ID }}
+          private-key: ${{ secrets.PAGES_APP_PRIVATE_KEY }}
+          owner: luke-cheng
+          repositories: luke-cheng.github.io
+          permission-actions: write
+
       - name: Trigger GitHub Pages build
         env:
-          GH_TOKEN: ${{ secrets.PAGES_REPOSITORY_DISPATCH_TOKEN }}
-        run:
-          | # https://docs.github.com/en/rest/actions/workflows?apiVersion=2026-03-10#create-a-workflow-dispatch-event
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
           gh api --method POST \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2026-03-10" \
