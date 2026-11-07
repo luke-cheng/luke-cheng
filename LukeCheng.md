@@ -2,55 +2,65 @@
 
 [LinkedIn](https://www.linkedin.com/in/luke-cheng/) | [GitHub](https://github.com/Luke-Cheng)
 
+New York City, NY, USA | Open to Relocate
+
 ## EXPERIENCE
 
-### JPMorgan Chase, New York, NY
+### **JPMorgan Chase**, New York, NY
 
-**Software Engineer** | Dec 2025 - Present
+Software Engineer | Dec 2025 – Present
 
-- **Forward-Deployed FDE Foundation:** Joined a specialized, pivoting **Forward-Deployed Engineering (FDE) Unit**, embedding with legacy and high-impact business groups to build core AI tooling, accelerate developer productivity, and de-risk migration bottlenecks.
-- **HITL Legacy Modernization:** Engineered a Human-in-the-Loop (HITL) AI code analysis tool that parsed complex, monolithic COBOL codebases to decouple tightly bound business logic and legacy database statements embedded within the same files; accelerated automated translation and structural refactoring into cloud-native Java microservices while preserving absolute human auditing guardrails.
-- **Enterprise AI Scaling (LLM Suite):** Co-engineered **LLM Suite**, the firm's global generative AI platform scaled to augment **230,000+ employees**. Designed and implemented a customizable system-prompt architecture that enabled non-technical product managers and cross-functional engineers to configure, safe-guard, and deploy domain-specific AI workflows.
-- **Context-Insulated RAG & Developer Tooling:** Built **GTAssist** and **GTAssist MCP** (Model Context Protocol), a specialized developer assistant integrating internal engineering blogs and Confluence knowledge bases. Embedded deep architectural context for JPMC's proprietary frameworks (**Photon Boot** enterprise Spring Boot extensions, **Octagon/Manhattan Design System** React-based frontend framework, **Jules** Jenkins configs, and on-premises Gaia Kubernetes Platform) into coding-agent harnesses to drastically increase generated code accuracy.
-- **High-Throughput Core Platform Integration:** Forward-deployed to the Customer Summary Utility teams (a 23-engineer squad managing 8 mission-critical microservices) to assist in AI-empowered consolidation of fragmented core services into a uniform data utility, eliminating the need for internal firm teams to retrieve data across disparate groups and perform manual joins; architected high-throughput CQRS inquiry path features operating at **5K average to 11K peak TPS** using **Java (Spring Boot), Python (FastAPI), Apache Kafka, Cassandra, and CockroachDB**.
-- **Data Pipeline Optimization:** Evaluated high-throughput data-delivery patterns and implemented CockroachDB's native **Change Data Capture (CDC) events**, significantly reducing downstream messaging overhead while optimizing real-time customer-data freshness.
-- **AI Diagnostics & Automated Support:** Built a database- and codebase-aware AI diagnostic chatbot for internal UAT and production support; executed automated cross-system diffs between upstream payloads and Kafka Dead Letter Queues (DLQ) to instantly pinpoint schema violations, reducing team support response times from days to hours.
-- **Secure Financial Product Features:** Implemented secure card tokenization and Virtual Card Number (VCN) workflows for Apple Wallet and digital wallets within a v3 API, enabling complex one-to-many account-to-card entity mappings under strict PCI-compliance parameters.
-- **CI/CD Quality Guardrails:** Established TDD/BDD quality gates (JUnit, Cucumber) within Jenkins pipelines to validate AI-generated pull requests at scale, ensuring automated compliance verification and reducing reliance on manual reviews.
+- **Forward-Deployed AI Engineering:** Part of a specialized Forward-Deployed Engineering (FDE) unit embedding directly within high-impact enterprise engineering groups to identify operational bottlenecks, translate domain-specific requirements into AI-powered solutions, and accelerate enterprise AI adoption and system modernization.
+- **Enterprise Agentic AI Platform:** Co-engineered LLM Suite, the firm’s global generative AI platform designed to augment over 230,000 employees. Developed customizable system-prompt architectures enabling business users and engineers to configure, govern, and share domain-specific AI assistants and reusable agentic workflows.
+- **MCP & Enterprise Knowledge Integration:** Developed GTAssist and its Model Context Protocol (MCP) integration, connecting LLM-powered engineering assistants with internal Confluence knowledge bases, engineering documentation, and proprietary enterprise frameworks through standardized context retrieval and tool-access interfaces.
+- **AI-Assisted Legacy Modernization:** Developed Human-in-the-Loop (HITL) AI code analysis workflows to parse complex COBOL codebases, identify tightly coupled business logic and embedded database dependencies, and support structured refactoring into cloud-native Java microservices while preserving human review and auditing controls.
+- **AI-Powered Pipeline Diagnostics:** Engineered an intelligent Kafka Dead Letter Queue (DLQ) diagnostic workflow integrating AI-assisted schema analysis to identify malformed messages, payload validation failures, and upstream data producer issues, accelerating distributed pipeline troubleshooting.
+- **Automated Data Reconciliation:** Built a database- and codebase-aware AI support assistant that performs cross-system comparisons between upstream producer data and downstream utility records, identifying synchronization discrepancies and helping route incidents to responsible producer teams. Reduced internal support response times from days to hours.
+- **Distributed Data Platform Engineering:** Forward-deployed to the Customer Summary Utility organization, contributing to the consolidation of fragmented customer data services into a centralized CQRS-style utility platform. Developed high-throughput inquiry-path capabilities using Java, Spring Boot, Python (FastAPI), Kafka, Cassandra, and CockroachDB, supporting 5K+ average and 11K peak TPS.
+- **Real-Time Data Integration & CDC:** Evaluated distributed data-delivery patterns and implemented CockroachDB native Change Data Capture (CDC) events, reducing unnecessary downstream messaging overhead while improving customer-data freshness and event-driven processing efficiency.
+- **Cloud-Native Infrastructure & Deployment:** Supported migration and deployment of distributed services to Kubernetes, implementing Helm-based canary releases and automated rollback strategies within Jenkins CI/CD workflows to improve deployment consistency and production reliability.
+- **Data Quality & Automated Testing:** Established Test-Driven Development (TDD) and Behavior-Driven Development (BDD) quality guardrails using JUnit and Cucumber within CI/CD pipelines, validating application changes and AI-generated pull requests against enterprise engineering standards.
+- **Data Observability & Incident Management:** Enhanced distributed service observability through Fluent Bit log pipelines, Splunk dashboards, and Dynatrace SaaS monitoring, improving production diagnostics and supporting AI-assisted log analysis and root-cause investigation.1
+- **Secure Enterprise Data Workflows:** Implemented card-tokenization and Virtual Card Number (VCN) workflows for a v3 API, supporting Apple Wallet and digital wallet experiences through complex one-to-many account-to-card mappings under PCI compliance requirements.
 
-### MOYU LLC, Pittsburgh, PA
+### **MOYU LLC**, Pittsburgh, PA
 
-**Co-Founder** | Nov 2024 – Nov 2025
+Co-Founder & Lead Developer | Nov 2024 – Nov 2025
 
-- **B2B Venture Co-Foundation:** Co-founded an early-stage B2B software venture focused on version-control and collaboration workflows for architectural and AEC teams, translating complex domain-specific collaboration challenges into scalable product capabilities.
-- **Interactive 3D Visualization & Diff Features:** Developed interactive 3D rendering and visual diff features with Next.js and Three.js, enabling architecture teams to seamlessly inspect changes across complex 3D design assets and understand revisions.
-- **Cross-Platform Desktop Migration:** Spearheaded the migration of the core product from a standard web application to a high-performance, cross-platform Electron desktop application, significantly improving local file-system integration and user experience for design-centric workflows.
+- **B2B SaaS Product Development:** Co-founded an early-stage B2B software venture focused on version-control and collaboration workflows for architectural and AEC teams, translating specialized domain requirements into practical software capabilities.
+- **Interactive 3D Visualization & Data Comparison:** Developed interactive 3D rendering and visual diff features using Next.js and Three.js, enabling users to inspect changes across complex architectural design assets and understand revisions.
+- **Cross-Platform Application Engineering:** Migrated the core product from a web application to a cross-platform Electron desktop application, improving local filesystem integration and supporting design-centric workflows.
+- **Cloud Infrastructure & Delivery:** Worked with AWS EC2, S3, CloudFront, and GitHub Actions to support application deployment, asset storage, and automated development workflows.
 
-### University of Pittsburgh Medical Center (UPMC), Pittsburgh, PA
+### **University of Pittsburgh Medical Center (UPMC)**, Pittsburgh, PA
 
-**Graduate Software Developer** | Feb 2023 – Jan 2024
+Graduate Software Developer | Feb 2023 – Jan 2024
 
-- **HIPAA-Compliant Clinical Platform:** Collaborated with 50+ clinicians to translate clinical workflow and analytics requirements into a secure, HIPAA-compliant platform using Spring Boot, Django, MySQL, and FHIR APIs.
-- **Python NLP Microservice:** Developed a custom Python natural language processing (NLP) microservice that automatically extracted structured clinical insights, reducing clinical case retrieval times from hours to minutes.
-- **Secure AWS Cloud Infrastructure:** Provisioned and deployed secure AWS infrastructure for heavy clinical analytics workloads, balancing high system availability and scalability with strict healthcare privacy mandates.
+- **Intelligent Clinical Data Processing:** Developed a Python NLP microservice to extract structured clinical insights from unstructured medical notes, transforming free-text clinical information into searchable data and reducing clinical case retrieval times from hours to minutes.
+- **Enterprise Data Integration:** Collaborated with 50+ clinicians to translate clinical workflow and analytics requirements into a HIPAA-compliant platform using Java Spring Boot, Django, MySQL, and FHIR APIs.
+- **Healthcare Data Interoperability:** Integrated backend services with standardized FHIR interfaces to support structured clinical information exchange and improve access to patient history and clinical records.
+- **Cloud Infrastructure & Data Security:** Provisioned and deployed AWS infrastructure supporting clinical analytics workloads, balancing scalability and availability with healthcare privacy and regulatory requirements.
 
-### ChemPacific Corp, Baltimore, MD
+### **ChemPacific Corp.**, Baltimore, MD
 
-**Research Scientist** | May 2021 – May 2022
+Research Scientist | May 2021 – May 2022
 
-- **Laboratory Data Pipeline Automation:** Automated complex laboratory data pipelines using Python and PowerShell scripting, significantly improving data accuracy, repeatability, and end-to-end traceability.
-- **Analytical Instrumentation Integration:** Integrated Agilent laboratory instrumentation directly with internal data systems, streamlining data flows and saving 5+ hours of manual effort weekly.
-- **Regulatory Compliance & Automation:** Supported critical laboratory automation initiatives in strict alignment with Good Manufacturing Practice (GMP) and National Medical Products Administration (NMPA) regulatory standards.
+- **Automated Data Pipeline Engineering:** Developed Python and PowerShell automation to process laboratory analytical data, reducing manual data handling while improving processing consistency, accuracy, and traceability.
+- **Data Source Integration & Ingestion:** Integrated Agilent analytical instrumentation with internal data processing systems, automating the ingestion and transformation of laboratory measurements and saving 5+ hours of manual effort weekly.
+- **Data Quality & Validation:** Implemented automated data-cleaning and validation workflows for analytical results, improving data integrity and repeatability within regulated laboratory environments.
+- **Data Governance & Regulatory Compliance:** Maintained traceable data processing workflows aligned with Good Manufacturing Practice (GMP) and National Medical Products Administration (NMPA) regulatory requirements.
 
 ## EDUCATION
 
-### University of Pittsburgh, Pittsburgh, PA
+### **University of Pittsburgh** | Pittsburgh, PA
 
-**Master of Science, Computer & Information Science** | Aug 2022 - May 2024
+Master of Science, Computer & Information Science | Aug 2022 – May 2024
 
-### Virginia Tech (Virginia Polytechnic Institute and State University), Blacksburg, VA
+GPA: 3.8 / 4.0
 
-**Bachelor of Science, Chemistry and Philosophy** | Aug 2016 - Dec 2020
+### **Virginia Tech** | Blacksburg, VA
+
+Bachelor of Science, Chemistry and Philosophy | Aug 2016 – Dec 2020
 
 ## Personal Projects
 
