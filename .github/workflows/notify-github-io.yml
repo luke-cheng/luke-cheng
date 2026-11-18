@@ -22,8 +22,8 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
-          client-id: ${{ vars.PAGES_APP_CLIENT_ID }}
-          private-key: ${{ secrets.PAGES_APP_PRIVATE_KEY }}
+          client-id: ${{ vars.LC_GH_IO_APP_CLIENT_ID }}
+          private-key: ${{ secrets.LC_GH_IO_APP_PRIVATE_KEY }}
           owner: luke-cheng
           repositories: luke-cheng.github.io
           permission-actions: write
